@@ -84,9 +84,11 @@ input{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 20px;
 }
 #name-container{
     display: flex;
+    margin-bottom: 20px;
 }
 
 
