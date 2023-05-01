@@ -7,7 +7,6 @@ html,body {
     font-family: Arial;
     scroll-behavior: smooth;
     transition: 250ms;
-    background: whitesmoke;
     
     
 }
@@ -62,7 +61,12 @@ nav ul li :hover{
 
 }
 
-
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+.total-amount-container {}
 
 
 
@@ -85,7 +89,7 @@ footer {
     height: 400px;
     width: 100%;
     position:absolute;
-    top: 750vh;
+    top: auto;
     color :whitesmoke;
     background-color: rgb(1, 1, 1);
 }
