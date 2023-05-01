@@ -60,14 +60,30 @@ nav ul li :hover{
     left: 0;
 
 }
+#active{
+    color:yellowgreen;
+    border-bottom: 1px solid yellowgreen;
+}
 
 .container {
     display: flex;
     height: 100vh;
     width: 100%;
+    justify-content: flex-end;  
 }
-.total-amount-container {}
+.info-container {
+background: gainsboro;
+width: 80%;
 
+}
+.cart-container {
+    height: 80%;
+
+}
+.amount-container{
+height: 100px;
+border: 1px solid red;
+}
 
 
 
