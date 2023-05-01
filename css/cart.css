@@ -80,11 +80,14 @@ width: 80%;
     height: 80%;
 
 }
+
 .amount-container{
 height: 100px;
 border: 1px solid red;
 }
-
+.item-container{
+    
+}
 
 
 
