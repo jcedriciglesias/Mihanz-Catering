@@ -61,149 +61,15 @@ nav ul li :hover{
     left: 0;
 
 }
-.option{
-height: 80px;
-background-color: orange;
-display: flex;
-justify-content: center;
-position: sticky;
-top: 0;
-}
-.option ul{
-    list-style: none;
-    display: inline-flex;
-    color:white;
-    align-items: center;
-
-}
-.option ul li{
-    margin:0px 20px 0px 20px;
-    padding: 5px;
-
-    font-size: 20px;
-}
-.option ul li a{
-    text-decoration: none;
-    color:white;
-}
-
-
-#fsname{
-    font-weight: bolder;
-    font-size: 25px;
-    letter-spacing: 5px;
-    color: greenyellow;
-    margin-top: 2%;
-    text-align: center;
-    font-weight: bolder;
-}
-
-#active{
-    color:yellowgreen;
-    border-bottom: 1px solid yellowgreen;
-}
-.menucon{
-    height: 100%;
-    width: 100%;
-}
-.menu-option-container{
-height: 100%;
-display: flex;
-flex-direction: column;
-}
-.menu-title{
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 25px;
-}
-.item-con{
-    display: flex;
-    flex-wrap: wrap;
-    height: 100vh;
-    justify-content: center;
-    cursor: pointer;
-}
 
 
 
-.menu-item{
-    height: 300px;
-    margin: 5px;
-    padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
-    text-align: center;
-    box-shadow: 5px 6px 15px black;
-    border-radius: 10px;
-}
-
-.item-picture{
-height: 200px;
-width: 230px;
-
-}
-
-.item-name{
-    font-size: 20px;
-    letter-spacing: 2px;
-    font-weight: 900;
-}
-.price{
-    font-size: 15px;
-    FONT-WEIGHT: 800;
-    color: orange;
-    margin-bottom: 10px;
-}
 
 
-#Prk{
-    padding-top: 30px;
-    margin-bottom: 90px;
-    display: flex;
-   
-}
-#Beef{
-    padding-top: 100px;
-    margin-bottom: 90px;
-   
-}
-#Poultry{
-    padding-top: 100px;
-    margin-bottom: 90px;
-    
-}
-#Fish{
-    padding-top: 100px;
-    margin-bottom: 90px;
-    
-}
-#Pasta{
-    padding-top: 100px;
-    margin-bottom: 90px;
-    
-}
-.option :hover{
-    color: yellowgreen;
-}
 
-.button{
-    border: none;
-    height: 17px;
-    width: 230px;
-    color: dodgerblue;
-    letter-spacing: 1px;
-    /* FONT-WEIGHT: 400; */
-    font-weight: 700;
-    /* border-top: gray; */
-    background: gainsboro;
-    cursor: pointer;
-}
-.menu-item .item-picture .item-name .price .button :hover  {
-    background-color: gold;
-    color: green;
-}
+
+
+
 
 
 
