@@ -194,9 +194,7 @@ width: 230px;
     width: 230px;
     color: dodgerblue;
     letter-spacing: 1px;
-    /* FONT-WEIGHT: 400; */
     font-weight: 700;
-    /* border-top: gray; */
     background: gainsboro;
     cursor: pointer;
 }
