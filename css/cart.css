@@ -88,6 +88,7 @@ border: 1px solid red;
 .item-container{
     display: flex;
     justify-content: center;
+    margin-top: 35px;
 
 }
 table tr td img{
@@ -95,7 +96,6 @@ table tr td img{
 }
 td,
 th {
-    border: 1px solid rgb(190, 190, 190);
     padding: 10px;
 }
 
@@ -129,7 +129,19 @@ table {
     font-size: 0.8rem;
     width: 90%;
 }
-
+td button{
+    height: 30px;
+    width: 100px;
+    border-style: hidden;
+    color: white;
+    background: red;
+}
+td [scope='row']{
+    background-color: red;
+}
+#checkout{
+    background-color: green;
+}
 
 
 
