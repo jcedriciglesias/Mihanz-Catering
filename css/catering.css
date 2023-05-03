@@ -7,6 +7,9 @@ html,body {
     font-family: Arial;
     scroll-behavior: smooth;
     transition: 250ms;
+    background: linear-gradient(rgba(0, 0, 0, 0.623),rgba(0, 0, 0, 0.644)), url("../html/mihanz-cater.jpg");
+background-position: center;
+background-size: cover;
     
 }
 body{
@@ -59,122 +62,53 @@ nav ul li :hover{
     color: yellowgreen;
     border-bottom: 1px solid yellowgreen;
 }
-
-
-#about{
-    height: 700px;
-    background: crimson;
-}
-#contact{
-    height: 700px;
-    background: violet;
-}
-
-
-
-.option{
-    height: 80px;
-    background-color: orange;
+.container{
     display: flex;
+    height: 100vh;
+    width: 100%;
     justify-content: center;
-    position: sticky;
-    top: 0;
-    }
-    .option ul{
-        list-style: none;
-        display: inline-flex;
-        color:white;
-        align-items: center;
-    
-    }
-    .option ul li{
-        margin:0px 20px 0px 20px;
-        padding: 5px;
-    
-        font-size: 20px;
-    }
-    .option ul li a{
-        text-decoration: none;
-        color:white;
-    }
-.option :hover{
-    color: yellowgreen;
+    margin-top: 100px;
 }
-.event-container{
+.item-selection{
     display: flex;
-    flex-direction: column;
+    height: 250px;
+    width: 400px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+
 }
-#birth-day{
-    height: 100vh;
-    width: 100%;
-    background-color: gainsboro;
-    padding-bottom: 100px;
+
+#birthday{
+    background: linear-gradient(rgba(0, 0, 0, 0.479),rgba(0, 0, 0, 0.5)), url("../html/birthday.jpg");
+background-position: center;
+background-size: cover;
 }
 #baptismal{
-    height: 100vh;
-    width: 100%;
-    padding-top: 80px;
+    background: linear-gradient(rgba(0, 0, 0, 0.479),rgba(0, 0, 0, 0.5)), url("../html/baptismal.jpg");
+background-position: center;
+background-size: cover;
 }
-#Birthday{
-    height: 100vh;
-    background: rgb(255, 255, 255);   
+.container .item-selection a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 3px;
+
 }
-    .container{
-        display: flex;
-        flex-direction: row;
-        
-        
-    }       
-        #info{
-            background-color: white;
-          
-           
-            
-        }
-        #info h1{
-            font-size: 40px;
-            letter-spacing: 5px;
-            
-            text-align: center;
-            background-color: yellowgreen;
-        
-        }
-        #info p{
-           background-color: gainsboro;
-            font-weight: bolder;
-            font-size: 30px;
-            color: rgb(0, 0, 0);
-            text-align: center;
-            height: 93%;
-
-        }
-        
-
-        #carousel{
-            height: 650px;
-            width: 50%;
-            
-        }
-        
-        #c1{
-            height: 500px;
-            
-        }
-#baptismal{
-            height: 100vh;
-            background: rgb(255, 255, 255);   
-        }
-            .wcontainer{
-                display: flex;
-                flex-direction: row-reverse;
-                
-                
-            }       
-                
-        
-
-
-
+.container .item-selection:hover a{
+    box-shadow: 1px 1px 20px 4px white;
+    height: 250px;
+    width: 400px;
+   
+}
+.container .item-selection :hover{
+    font-size: 65px;
+    background: linear-gradient(rgba(0, 0, 0, 0.493),rgba(0, 0, 0, 0.425));
+   
+}
 
 
 

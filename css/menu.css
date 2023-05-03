@@ -7,13 +7,13 @@ html,body {
     font-family: Arial;
     scroll-behavior: smooth;
     transition: 250ms;
-    background: whitesmoke;
+    background: linear-gradient(rgba(0, 0, 0, 0.623),rgba(0, 0, 0, 0.644)), url("../html/mihanz-cater.jpg");
+    background-position: center;
+    background-size: cover;
     
     
 }
-body {
-    height: 100%;
-}
+
 .snap{
     scroll-snap-type:  y mandatory;
     scroll-snap-align: start;
