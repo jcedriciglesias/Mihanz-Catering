@@ -10,20 +10,20 @@ html,body {
     background: linear-gradient(rgba(0, 0, 0, 0.623),rgba(0, 0, 0, 0.644)), url("../html/mihanz-cater.jpg");
 background-position: center;
 background-size: cover;
+background-attachment: fixed;
     
 }
 body{
     height: 100%;
 }
 nav{
-    height: 80px;
+    height: 70px;
     width: 100%;
     position:sticky;
     top: 0;
-    background-color: rgb(0, 0, 0);
     display: flex;
-    justify-content: center;
-
+    justify-content: flex-end;
+    background-color: #000000eb;
    
 }
 nav ul li a {
@@ -71,8 +71,8 @@ nav ul li :hover{
 }
 .item-selection{
     display: flex;
-    height: 250px;
-    width: 400px;
+    height: 300px;
+    width: 500px;
     margin: 20px;
     justify-content: center;
     align-items: center;
@@ -100,8 +100,8 @@ background-size: cover;
 }
 .container .item-selection:hover a{
     box-shadow: 1px 1px 20px 4px white;
-    height: 250px;
-    width: 400px;
+    height: 300px;
+    width: 500px;
    
 }
 .container .item-selection :hover{
