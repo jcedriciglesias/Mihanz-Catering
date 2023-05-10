@@ -142,9 +142,17 @@ flex-direction: column;
 }
 .title h1{
     font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: cursive;
 }
 .title h2{
     font-weight: bolder;
+    font-size: 40px;
+    letter-spacing: 8px;
+    border-top: 4px double;
+    border-bottom: 4px double;
+    color: greenyellow;
 }
 
 
