@@ -5,20 +5,20 @@
 html,body {
     font-family: Arial;
     scroll-behavior: smooth;
-    transition: 250ms;
-    background: linear-gradient(rgba(0, 0, 0, 0.623),rgba(0, 0, 0, 0.644)), url("../images/mihanz-cater.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.623),rgba(0, 0, 0, 0.644)), url("../images/catering-768.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    height: auto;
 }
 .snap{
     scroll-snap-type:  y mandatory;
     scroll-snap-align: start;
 }
+/*Navigation*/
 nav{
     height: 70px;
-    width: 100%;
     position:sticky;
     top: 0;
     display: flex;
@@ -47,6 +47,8 @@ nav ul li :hover{
 
     scroll-behavior: smooth ;
 }
+/*Submenu*/
+
 .submenu-option{
     display: none;
 }
@@ -79,12 +81,12 @@ nav ul li#hovering:hover {
 .submenu-option a{
     text-decoration: none;
     text-align: center;
-    font-size: 30px;
+    font-size: 23px;
     color: white;
     font-weight: bolder;
     letter-spacing: 3px;
-    padding-top: 79px;
-    padding-bottom: 79px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     background: linear-gradient(rgba(0, 0, 0, 0.493),rgba(0, 0, 0, 0.425));
     
 }
@@ -101,22 +103,9 @@ nav ul li#hovering:hover {
 
 
 .submenu-option .item-selection :hover{
-    background: linear-gradient(rgba(0, 0, 0, 0.493),rgba(0, 0, 0, 0.425));
-    font-size: 30px;
+    background: linear-gradient(rgba(0, 0, 0, 0.651),rgba(0, 0, 0, 0.692));
+    font-size: 23px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 #logo {
     height: 60px;
     padding-top: 5px;
@@ -127,26 +116,68 @@ nav ul li#hovering:hover {
     color: yellowgreen;
     border-bottom: 1px solid yellowgreen;
 }
-.container {
+
+/*Container Part*/
+
+.container{
+    display: flex;
     height: auto;
+    justify-content: center;
+    flex-direction: column;
 }
-#about-us{
-    height: 100vh;
+
+.title {
+background: linear-gradient(rgb(196 190 190 / 5%), #000000a6), url("../images/Social.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 70vh;
+display: flex;
+flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.title h1{
+    font-weight: bolder;
+}
+.title h2{
+    font-weight: bolder;
 }
 
 
-
-
-
-
-
-
-#contact{
+.form{
     height: 100vh;
+    width: 100%;
+    margin-bottom: 50px;
+    background-color: gainsboro ;
     
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
 footer {
     display: flex;  
     direction:column;

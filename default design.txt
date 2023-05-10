@@ -1,4 +1,36 @@
-*{
+<nav id="home" >
+        <a href="#tap"><img src="html\mihanz-logo-transparent.png" alt="logo" id="logo" title="Mihanz Catering"> </a> 
+
+        <ul>
+            
+            <li><a href="..\index.html" id="active">Home</a></li>
+            <li id="hovering"><a >Catering</a>
+            <div class="submenu-option">
+                <ul id="catering">
+                    <li class="item-selection" id="birthday">
+
+                        <a href="..\html\birthday.html" >Birthday </a>
+   
+                    </li>
+                    <li class="item-selection" id="baptismal">
+                        <a href="..\html\baptismal.html" >Baptismal </a>   
+                    </li>
+                </ul>
+            </div>
+                
+            
+            
+            </li>
+            <li><a href="html\menu.html">Menu</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#footer">Contact Us</a></li>
+
+
+        </ul>
+        
+    </nav> 
+================================================CSS-NAV================================================
+    *{
     margin: 0%;
     padding: 0%;
 }
@@ -6,7 +38,7 @@ html,body {
     font-family: Arial;
     scroll-behavior: smooth;
     transition: 250ms;
-    background: linear-gradient(rgba(0, 0, 0, 0.623),rgba(0, 0, 0, 0.644)), url("../images/mihanz-cater.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.623),rgba(0, 0, 0, 0.644)), url("../html/mihanz-cater.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,7 +55,6 @@ nav{
     top: 0;
     display: flex;
     padding-left: 20px;
-    background: linear-gradient(90deg, black, #000000cc);
 
 }
 nav ul li a {
@@ -89,12 +120,12 @@ nav ul li#hovering:hover {
     
 }
 #birthday{
-    background: linear-gradient(rgba(0, 0, 0, 0.329),rgba(0, 0, 0, 0.329)), url("../images/birthday.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.329),rgba(0, 0, 0, 0.329)), url("../html/birthday.jpg");
     background-position: center;
     background-size: cover;
 }
 #baptismal{
-    background: linear-gradient(rgba(0, 0, 0, 0.329),rgba(0, 0, 0, 0.329)), url("../images/baptismal.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.329),rgba(0, 0, 0, 0.329)), url("../html/baptismal.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -104,19 +135,6 @@ nav ul li#hovering:hover {
     background: linear-gradient(rgba(0, 0, 0, 0.493),rgba(0, 0, 0, 0.425));
     font-size: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 #logo {
     height: 60px;
     padding-top: 5px;
@@ -127,26 +145,7 @@ nav ul li#hovering:hover {
     color: yellowgreen;
     border-bottom: 1px solid yellowgreen;
 }
-.container {
-    height: auto;
-}
-#about-us{
-    height: 100vh;
-}
-
-
-
-
-
-
-
-
-#contact{
-    height: 100vh;
-    
-}
-
-
+===============================================FOOTER============================================
 footer {
     display: flex;  
     direction:column;
